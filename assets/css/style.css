@@ -2,17 +2,17 @@
 * {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-nav {
-    display: block;
-}
-
-h1 {
-    text-align: center;
+header nav ul li{
+    display: inline;
+    margin-left: 10px;
 }
 
 header {
+    text-align: right;
     position: fixed;
     top: 0;
     right: 0px;
@@ -21,6 +21,17 @@ header {
     background-color: salmon;
     border-bottom: 10px solid red;
 } 
+
+main{
+    width: 1041px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main section figure img{
+    width: 20%;
+    margin-top: 50px;
+}
 
 footer {
     position: fixed;
